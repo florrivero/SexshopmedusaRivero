@@ -217,6 +217,7 @@
 
 .tituloIngresos{
   margin: 3rem;
+  padding-bottom: 2rem;
     display: block;
     text-align: center;
     width: 100%;
@@ -227,6 +228,9 @@
     font-size: 4rem;
     
     
+}
+.sectionImagenes, .imgPlug :hover {
+    transform: scale(1.1);
 }
 
 .sectionImagenes{
@@ -663,6 +667,10 @@
 
         top: -27px;
     }
+    .sectionImagenes, .imgPlug :hover {
+        transform: scale(1);
+    }
+    
     
     
    /*index*/
