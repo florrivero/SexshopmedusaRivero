@@ -1,0 +1,856 @@
+
+*{
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodyMargenes{
+    margin: 0.5rem ;
+}
+.contenedorBody{
+    background-color: #f1f1f1;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "nav nav nav nav nav"
+                        "header header header header header"
+                        "main main main main main"
+                        "section section section section section"
+                        
+                        "footer footer footer footer footer"
+                        ;
+}
+.navGrid{
+    grid-area: nav;
+}
+.headerGrid{
+    grid-area: header;
+}
+.mainGrid{
+    grid-area: main;
+}
+.footerGrid{
+    grid-area: footer;
+}
+
+.section{
+    grid-area: section;
+}
+/*porpiedades header*/
+.contenedorPadre{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    }
+.tituloH{
+    color: white;
+   margin-left: -8rem;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 2px;
+    font-family: 'Playfair Display', serif;
+}
+.subtituloH{
+    color: white;
+    margin-top: 2.5rem;
+   margin-left: -16rem;
+    font-style: italic;
+    text-align: initial;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.inputGrid2{
+    width: 30rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 20rem;
+    padding-left: 10rem;
+    padding: 0.5rem;
+}
+.inputGrid a{
+    text-align: center;
+}
+.divContenedorCuenta{
+    margin-left: 21rem;
+}
+.divBill  {
+    color: white;
+    margin-top: 0.7rem;
+    margin-left: 5rem;
+    
+}
+.cuentaGrid{
+    padding: 5px;
+    margin-left: 6rem;
+    
+    margin-top: -1.4rem;
+
+
+}
+.cuentaGrid a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', serif;
+    
+}
+.carroCompra {
+    color: white;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+    
+}
+
+
+
+/*productos*/
+.headerContacto{
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+.contenedorBodyProductos{
+    height: 100vh;
+    display: grid;
+    background-color: #f1f1f1;
+
+    grid-template-areas:"nav nav nav nav" 
+                        "header header header header"
+                        "divGrid divGrid divGrid divGrid"
+                          "main main main main"
+                          "footer footer footer footer"
+                          ;
+}
+.tituloIngresos2{
+    font-size: 2rem;
+    
+    text-align: center;
+}
+.navGrid{
+    grid-area: nav;
+}
+.headerGrid{
+    grid-area: header;
+}
+.divGrid{
+    grid-area: divGrid;
+
+}
+.mainGrid{
+    grid-area: main;
+    
+}
+.footerGrid{
+    grid-area: footer;
+
+}
+.divCuatroGrid{
+    grid-area: divCuatro;
+}
+.divGrid{
+    grid-area: divGrid;
+    height: 2rem;
+    background-color:  #ab4792;
+}
+.divGrid {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 1.2rem;
+    
+    
+}
+.divGrid a{
+    text-decoration: none;
+    color: white;
+    padding: 0rem 2rem;
+}
+/*propiedades nav*/
+
+.navEstilos{
+    
+    background-color: #ab4792;
+    font-family: 'Courier New', Courier, monospace;
+    position: sticky;
+    top:0;
+    padding-bottom: 0.01rem;
+    width: 100%;
+   
+}
+.navEstilos ul li{
+    display: inline-block;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    text-transform: uppercase;
+    
+}
+.navEstilos ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+/*propiedades main Index*/
+.mainEstilosIndex{
+    display: flex;
+}
+.mainEstilosIndexx img{
+    margin-top: 2rem;
+    
+    margin-left: 30rem;
+    width: 1000px;
+}
+ 
+.contenedorSection{
+    
+   margin-left: 5rem;
+   margin-right: 5rem;
+    height: 650px;
+   
+}
+.contenedorFlex{
+    margin-bottom: 5rem;
+}
+
+.tituloIngresos{
+  margin: 3rem;
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
+.tituloIngresos h2{
+    text-align: center;
+    font-size: 4rem;
+    
+    
+}
+
+.sectionImagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    margin-bottom: 10rem;
+  
+    
+}
+.marginSection{
+    padding: 10;
+}
+.imgPlug{
+    display: block;
+    background-color: white;
+     border: 1rem solid #f1f1f1;
+   
+}
+
+.imgUno{
+    width: 310px;
+    padding-top: 5px;
+    
+    padding-bottom: 62px;
+   
+}
+.imgDos{
+    width: 310px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.imgTres{
+    width:  310px;
+    padding-top: 20px;
+    padding-bottom: 51px;
+}
+.imgCuatro{
+    width:  310px;
+    padding-top: 20px;
+    padding-bottom: 52px;
+}
+.imgCinco{
+    width: 310px;
+    padding-top: 20px;
+    padding-bottom: 52px;
+}
+.imgSeis{
+    width:  310px;
+    padding-bottom: 59px;
+}
+.imgSiete{
+    width: 310px;
+    padding-bottom: 59px;
+}
+.imgOcho{
+    width: 310px;
+    padding-bottom: 59px;
+}
+
+.tiendaOnline {
+    text-align: center;
+    font-size:  30px;
+  
+}
+
+.descripProd{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+    font-weight: bold;
+   
+}
+
+.pPrecio{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+   margin-bottom: 3rem;
+   font-weight: bold;
+   
+}
+
+/*propiedades main HTML mi cuenta*/
+.mainEstilosCuenta{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 30rem;
+    line-height: 2rem;
+}
+.mainEstilosCuenta section h3{
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+.formContacto{
+    border: none;
+    margin-left: 20rem;
+}
+.mainFormInput input{
+    width:22rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+} 
+.formContrasena input{
+    width:22rem;
+    height: 1.5rem;
+}
+.olvidoContrasena{
+    margin-left: 25.3rem;
+    margin-top: 1rem;
+}
+.olvidoContrasena a{
+    
+    color: black;
+    text-align: center;
+}
+.iniciarSesion{
+    margin-left: 25rem;
+    margin-top: 1rem;
+}
+.iniciarSesion input{
+    width: 12rem;
+    height: 2rem;
+    background-color: white;
+}
+.crearCuenta p{
+    width: 250px;
+    margin-left: 23.5rem;
+    margin-top: 0.7rem;
+    
+}
+.crearCuenta a{
+    color: black;
+}
+/*main HTML sobre nosotros*/
+.mainSobre{
+    display: flex;
+    margin: 18.7rem 0rem 21rem 0rem;
+}
+/*main HTML contacto*/
+.mainContacto{
+    margin-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 45rem;
+}
+.mainContacto div p{
+    font-size: 1.3rem;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 6rem;
+    padding: 2px;
+}
+ .iconWpp{
+    margin-left: 10rem;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 4px;
+}
+.iconEmail{
+    margin-left: 8rem;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 4px;
+}
+.mainContacto div ul li{
+    list-style: none;
+}
+.mainContacto div ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.formularioContacto{
+    display: flex;
+    flex-direction: column;
+}
+.formNombre input{
+    width: 500px;
+    height: 25px;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0rem;
+
+}
+.formMensaje input{
+    width: 500px;
+    height: 85px;
+    padding-left: 1rem;
+    padding-top: 0rem;
+   margin: 1rem 0rem;
+    text-align:initial;
+
+}
+.botonesMain{
+    display: flex;
+    flex-direction: column;
+   
+}
+.botonEnviar{
+    font-size: 1.3rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: white;
+    margin-bottom: 1rem; 
+    border: 1px solid black;
+    margin-left: 12rem;
+}
+.botonReset{
+    width: 6rem;
+    height: 1.5rem;
+    background-color: white;
+    margin-left: 1rem;
+    border: 1px solid black;
+    margin-left: 13rem;
+}
+/*propiedades footer*/
+.footerGridDos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    bottom: 0px;
+    margin-top: 5rem;
+    margin-top: 110rem;
+    
+
+}
+.divUno{
+    color: white;
+    margin-top: 0.5rem;
+  
+}
+.divUno a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-right: 0.5rem;
+
+}
+.divDos img{
+    width: 450px;
+    height: 200px;
+}
+.divTres ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: -0.5rem;
+    margin-top: 0.5rem;
+    line-height: 2.5rem;
+    }
+.divFooter{
+       
+        background-color: black;
+}
+.divCuatro{
+        background-color: black;
+       
+
+}
+.divCuatro p{
+        color: white;
+        font-size: 1rem;
+        text-align:center;
+        
+} 
+
+/*responsive*/
+
+.navResponsiveUl{
+    display: none;
+    padding: 15px;
+}
+.navLiContenedor a{
+    text-decoration: none;
+}
+.navLi:hover >a{
+    color: #ccc;
+}
+.navLi{
+    display: inline-block;
+    
+}
+
+.navLi a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.navResponsiveBotonContenedor{
+    position: relative;
+    width: 100%;
+    font-size: 25px;
+    margin-top: -64px;
+    color: white;
+}
+.navResponsiveBoton{
+    padding: 6px 0px;
+    margin-top:  37px;
+    width: 80%;
+    z-index: 100;
+    
+}
+
+@media only screen and (max-width:  375px ){
+    body{
+        
+        width: 100%;
+        display: flex;
+    }
+    .navEstilos{
+        width: 100%;
+    }
+    .headerGrid{
+        width: 100%;
+    }
+   
+    header{
+        display: flex;
+        flex-direction: column;
+      
+        
+    }
+    .tituloH{
+        text-align: center;
+    }
+    .divGrid{
+        display: none;
+    }
+    
+    .inputGrid{
+        display: none;
+    }
+    .inputGrid2{
+        display: none;
+    }
+    .navUl{
+        display: none ;
+        grid-area: navUl;
+    }
+    .divTres{
+        display: none;
+    }
+    .divContenedorCuenta{
+        display: none;
+    }
+    footer{
+        bottom: 0;
+    }
+    .inputNone{
+        margin-left: 20px;
+        margin-bottom: 12px;
+
+    }    
+    .inputNone input{
+        margin-top: 1rem;
+        border-radius: 4px;
+        
+    }
+    .inputNone i{
+        color: white;
+    }
+   .tituloH{
+       text-align: center;
+       margin-left: -1rem;
+       margin-right: 1rem;
+   }
+    .navResponsiveUl{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 50%;
+       padding-top: 27px;
+       grid-area: navResponsiveUl;
+       
+    }
+    .navLiContenedor{
+        position: relative;
+        top: -2000px;
+       background-color: #ab4792;
+        z-index:1 ;
+        width: 100%;
+        height: 200%;
+
+
+    }
+    .nav{
+        height: 37px;
+        width: 100%;
+        background-color: #ddd;
+    }
+    .navResponsive ul li{
+        list-style: none;
+    }
+    .navResponsiveLi{
+        width: 100%;
+        padding: 12px 20px;
+        
+    }
+    .navResponsiveLi a{
+        
+        font-size: 1rem;
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+    }
+    .cruzDesaparecer{
+        color: white;
+        display: flex;
+        justify-content: right;
+        
+        padding: 10px 10px 0px 0px;
+    }
+   
+    .cuentaGrid2{
+        padding: 12px 20px;
+    }
+    .cuentaGrid2 i{
+        color: white;
+    }
+
+    
+    .cuentaGrid2 a{
+        color: white;
+        text-decoration: none;  
+        font-size: 1rem;
+        text-transform: uppercase;
+
+    }
+    .navResponsiveUl:hover > .navLiContenedor {
+
+        top: -27px;
+    }
+    
+    
+   /*index*/
+   .tituloIngresos h2{
+       font-size: 2rem;
+   }
+   .headerEstilos{
+       width: 55vh;
+   }
+   .mainEstilosIndex{
+       width: 80%;
+    display: flex;
+    margin: 10px 10px 10px 15px;
+    padding: 0px 10px 10px 10px;
+    border: 2px solid black;
+   }    
+   
+    .mainEstilosCuenta{
+    margin-left: -45rem;
+    
+    }
+    .mainEstilosIndexx img{
+        
+        width: 90%;
+        padding-left: 0px;
+        margin-left: 10px;
+    }
+    .contenedorFlex{
+        margin-left: -3rem;
+    }
+    .sectionImagenes{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        height: 100%;
+    }
+   
+    .imgUno{
+        padding-left: 10px;
+        width: 200px;
+        
+    }
+    .imgDos{
+        padding-left: 10px;
+        width: 200px;
+       justify-content: center;
+    }
+    .imgTres{
+        padding-left: 10px;
+        width:  200px;
+        padding-top: 20px;
+        padding-bottom: 51px;
+    }
+    .imgCuatro{
+        padding-left: 10px;
+        width: 200px;
+        padding-top: 20px;
+        padding-bottom: 52px;
+    }
+    .imgCinco{
+        padding-left: 10px;
+        width: 200px;
+        padding-top: 20px;
+        padding-bottom: 52px;
+    }
+    .imgSeis{
+        padding-left: 10px;
+        width:  200px;
+        padding-bottom: 59px;
+    }
+    .imgSiete{
+        padding-left: 10px;
+        width: 200px;
+        padding-bottom: 59px;
+    }
+    .imgOcho{
+        padding-left: 10px;
+        width:200px;
+        padding-bottom: 59px;
+    }
+    
+    .tiendaOnline {
+        text-align: center;
+        font-size:  30px;
+      
+    }
+    
+    .descripProd{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        
+        font-weight: bold;
+       
+    }
+    
+    .pPrecio{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+       margin-bottom: 3rem;
+       font-weight: bold;
+       
+    }
+    
+    .footerGrid{
+        margin-top: 350rem;
+        display: flex;
+        flex-direction: column;
+    }
+     /*mi cuenta*/
+
+    .mainEstilosCuenta section h3{
+    margin-left: 22rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    margin-top: -2rem;
+   
+    }
+    .mainForm {
+    margin-left: -5rem;
+    }
+    .olvidoContrasena{
+    margin-left:350px;
+    }
+    .iniciarSesion{
+    margin-left: 21rem;
+    }
+    .crearCuenta{
+    margin-left: -5rem;
+    }
+    .footerGrid{
+    width: 100%;
+    }
+    .divDos img{
+    width: 300px;
+    }
+    .mainGrid{
+    padding-right: 0rem;
+    }
+  /*html contacto*/
+  .titulo2{
+      margin-left: -2rem;
+  }
+  .mainContacto{
+      margin-left: 0;
+      width: 400px;
+  }
+  .mainContacto div p{
+      margin-left: -0.5rem;
+      font-size: 1.2rem;
+      text-align: center;
+  }
+  .iconWpp{
+      margin-left: 0rem;
+      text-align: center;
+  }
+ .iconEmail{
+     margin-left: 0rem;
+     text-align: center;
+ }
+ .botonesMain{
+     margin-left: -7rem;
+    
+ }
+  .formularioContacto{
+      width: 300px;
+      margin-left: 2rem;
+  }
+  .formNombre input{
+    width: 300px;
+    height: 20px;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0rem;
+
+    }
+    .formMensaje input{
+    width: 300px;
+    height: 60px;
+    padding-left: 1rem;
+    padding-top: 0rem;
+    margin: 1rem 0rem;
+   
+    }
+   
+    
+
+  
+
+}
